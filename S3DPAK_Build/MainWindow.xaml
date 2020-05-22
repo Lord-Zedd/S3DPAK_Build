@@ -1,0 +1,18 @@
+﻿<Window x:Class="S3DPAK_Build.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:S3DPAK_Build"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="800">
+    <Grid Margin="4">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+
+		<Button Content="Dump All Files From..." Grid.Column="0" Click="Button_Click"/>
+		<Button Content="Rebuild From Dump..." Grid.Column="1" Click="Button_Click_1"/>
+	</Grid>
+</Window>
